@@ -1,0 +1,6 @@
+D:\Back_end_1\Course_18\3_tier_architecture_project\Data_layer\Data_operations\bin\Debug\Data_operations.dll
+D:\Back_end_1\Course_18\3_tier_architecture_project\Data_layer\Data_operations\bin\Debug\Data_operations.pdb
+D:\Back_end_1\Course_18\3_tier_architecture_project\Data_layer\Data_operations\obj\Debug\Data_operations.csproj.AssemblyReference.cache
+D:\Back_end_1\Course_18\3_tier_architecture_project\Data_layer\Data_operations\obj\Debug\Data_operations.csproj.CoreCompileInputs.cache
+D:\Back_end_1\Course_18\3_tier_architecture_project\Data_layer\Data_operations\obj\Debug\Data_operations.dll
+D:\Back_end_1\Course_18\3_tier_architecture_project\Data_layer\Data_operations\obj\Debug\Data_operations.pdb
