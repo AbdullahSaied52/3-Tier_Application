@@ -1,0 +1,13 @@
+D:\Back_end_1\Course_18\3_tier_architecture_project\presentation_layer\3_tier_project\bin\Debug\3_tier_project.exe.config
+D:\Back_end_1\Course_18\3_tier_architecture_project\presentation_layer\3_tier_project\bin\Debug\3_tier_project.exe
+D:\Back_end_1\Course_18\3_tier_architecture_project\presentation_layer\3_tier_project\bin\Debug\3_tier_project.pdb
+D:\Back_end_1\Course_18\3_tier_architecture_project\presentation_layer\3_tier_project\obj\Debug\3_tier_project.csproj.AssemblyReference.cache
+D:\Back_end_1\Course_18\3_tier_architecture_project\presentation_layer\3_tier_project\obj\Debug\3_tier_project.csproj.CoreCompileInputs.cache
+D:\Back_end_1\Course_18\3_tier_architecture_project\presentation_layer\3_tier_project\obj\Debug\3_tier_project.exe
+D:\Back_end_1\Course_18\3_tier_architecture_project\presentation_layer\3_tier_project\obj\Debug\3_tier_project.pdb
+D:\Back_end_1\Course_18\3_tier_architecture_project\presentation_layer\3_tier_project\obj\Debug\3_tier_project.exe.config
+D:\Back_end_1\Course_18\3_tier_architecture_project\presentation_layer\3_tier_project\bin\Debug\Business.dll
+D:\Back_end_1\Course_18\3_tier_architecture_project\presentation_layer\3_tier_project\bin\Debug\Data_operations.dll
+D:\Back_end_1\Course_18\3_tier_architecture_project\presentation_layer\3_tier_project\bin\Debug\Business.pdb
+D:\Back_end_1\Course_18\3_tier_architecture_project\presentation_layer\3_tier_project\bin\Debug\Data_operations.pdb
+D:\Back_end_1\Course_18\3_tier_architecture_project\presentation_layer\3_tier_project\obj\Debug\3_tier_p.25D902CD.Up2Date
