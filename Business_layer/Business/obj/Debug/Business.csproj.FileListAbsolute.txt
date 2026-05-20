@@ -1,0 +1,9 @@
+D:\Back_end_1\Course_18\3_tier_architecture_project\Business_layer\Business\bin\Debug\Business.dll
+D:\Back_end_1\Course_18\3_tier_architecture_project\Business_layer\Business\bin\Debug\Business.pdb
+D:\Back_end_1\Course_18\3_tier_architecture_project\Business_layer\Business\obj\Debug\Business.csproj.AssemblyReference.cache
+D:\Back_end_1\Course_18\3_tier_architecture_project\Business_layer\Business\obj\Debug\Business.csproj.CoreCompileInputs.cache
+D:\Back_end_1\Course_18\3_tier_architecture_project\Business_layer\Business\obj\Debug\Business.dll
+D:\Back_end_1\Course_18\3_tier_architecture_project\Business_layer\Business\obj\Debug\Business.pdb
+D:\Back_end_1\Course_18\3_tier_architecture_project\Business_layer\Business\bin\Debug\Data_operations.dll
+D:\Back_end_1\Course_18\3_tier_architecture_project\Business_layer\Business\bin\Debug\Data_operations.pdb
+D:\Back_end_1\Course_18\3_tier_architecture_project\Business_layer\Business\obj\Debug\Business.csproj.Up2Date
