@@ -16,16 +16,16 @@ namespace Business
         public string Address { get; set; }
         public int CountryID { get; set; }
 
-        //public clscontact()
-        //{
-        //    this.ID = -1;
-        //    this.FirstName = "";
-        //    this.LastName = "";
-        //    this.Email = "";
-        //    this.Phone = "";
-        //    this.Address = "";
-        //    this.CountryID = -1;
-        //}
+        public clscontact()
+        {
+            this.ID = -1;
+            this.FirstName = "";
+            this.LastName = "";
+            this.Email = "";
+            this.Phone = "";
+            this.Address = "";
+            this.CountryID = -1;
+        }
 
         private clscontact(int id,string FN,string LN,string email,
             string phone,string address,int countryid)
