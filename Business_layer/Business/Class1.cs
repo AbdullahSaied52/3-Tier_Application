@@ -53,6 +53,16 @@ namespace Business
                 return null;
             }
         }
+
+        private bool _add_new()
+        {
+            this.ID = clsData.add_new(FirstName, LastName, Email, Phone, Address, CountryID);
+            return (ID != -1);
+        }
+        private bool _update()
+        {
+            return clsData.update(ID, FirstName, LastName, Email, Phone, Address, CountryID);
+        }
     };
 
     public class Class1
