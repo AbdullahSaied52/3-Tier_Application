@@ -1,13 +1,16 @@
-﻿using System;
+﻿using clsData1;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using clsData1;
+using System.Xml.Linq;
 namespace Business
 {
     public class clscontact
-    { 
+    {
+        public enum enmode { addnew = 0, update = 1 };
+        public enmode mode = enmode.addnew;
         public int ID { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
@@ -62,6 +65,26 @@ namespace Business
         private bool _update()
         {
             return clsData.update(ID, FirstName, LastName, Email, Phone, Address, CountryID);
+        }
+
+        public bool Save()
+        {
+            switch (mode)
+            {
+                case enmode.addnew:
+                    if (_add_new())
+                    {
+                        mode = enmode.update;
+                        return true;
+                    }
+                    else
+                    {
+                        return false;
+                    }
+                case enmode.update:
+                    return _update();
+            }
+            return false;
         }
     };
 
