@@ -46,6 +46,93 @@ namespace clsData1
             return found;
         }
 
+        public static int add_new(string fn, string ln, string email,
+    string phone, string address, int countryid)
+        {
+            SqlConnection connection = new SqlConnection(connection_string);
+            string query = @"INSERT INTO Contacts
+                                           (FirstName
+                                           ,LastName
+                                           ,Email
+                                           ,Phone
+                                           ,Address
+                                           ,CountryID)
+                                     VALUES
+                                           (@FirstName,
+                                            @LastName, 
+                                            @Email, 
+                                            @Phone, 
+                                            @Address, 
+                                            @CountryID);
+		                                   select SCOPE_IDENTITY();";
+            SqlCommand command = new SqlCommand(query, connection);
+            command.Parameters.AddWithValue("FirstName", fn);
+            command.Parameters.AddWithValue("LastName", ln);
+            command.Parameters.AddWithValue("Email", email);
+            command.Parameters.AddWithValue("Phone", phone);
+            command.Parameters.AddWithValue("Address", address);
+            command.Parameters.AddWithValue("CountryID", countryid);
+            try
+            {
+                connection.Open();
+                object result = command.ExecuteScalar();
+                if (result != null && int.TryParse(result.ToString(), out int insertedID))
+                    return insertedID;
+                else
+                    return -1;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("error " + ex);
+            }
+            finally
+            {
+                connection.Close();
+            }
+            return -1;
+        }
+
+        public static bool update(int id, string fn, string ln, string email,
+            string phone, string address, int countryid)
+        {
+            SqlConnection connection = new SqlConnection(connection_string);
+            string query = @"UPDATE Contacts
+                           SET FirstName= @FirstName		
+                              ,LastName = @LastName		
+                              ,Email=	  @Email			
+                              ,Phone =	  @Phone			
+                              ,Address =  @Address		
+                              ,CountryID= @CountryID		
+                         WHERE ContactID= @ContactID";
+            SqlCommand command = new SqlCommand(query, connection);
+            command.Parameters.AddWithValue("FirstName", fn);
+            command.Parameters.AddWithValue("LastName", ln);
+            command.Parameters.AddWithValue("Email", email);
+            command.Parameters.AddWithValue("Phone", phone);
+            command.Parameters.AddWithValue("Address", address);
+            command.Parameters.AddWithValue("CountryID", countryid);
+            command.Parameters.AddWithValue("ContactID", id);
+
+            try
+            {
+                connection.Open();
+                int result = command.ExecuteNonQuery();
+                if (result > 0)
+                    return true;
+                else
+                    return false;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("error " + ex);
+            }
+            finally
+            {
+                connection.Close();
+            }
+            return false;
+        }
+
     }
 
 }
