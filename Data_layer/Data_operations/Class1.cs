@@ -133,6 +133,34 @@ namespace clsData1
             return false;
         }
 
+        public static bool delete(int id)
+        {
+            SqlConnection connection = new SqlConnection(connection_string);
+            string query = @"delete Contacts 
+                                            where ContactID=@id";
+            SqlCommand command = new SqlCommand(query, connection);
+            command.Parameters.AddWithValue("id", id);
+            try
+            {
+                connection.Open();
+                int result = command.ExecuteNonQuery();
+                if (result > 0)
+                    return true;
+                else
+                    return false;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("error " + ex);
+            }
+            finally
+            {
+                connection.Close();
+            }
+            return false;
+
+        }
+
     }
 
 }
