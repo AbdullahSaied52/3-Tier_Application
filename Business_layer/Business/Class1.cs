@@ -67,6 +67,11 @@ namespace Business
             return clsData.update(ID, FirstName, LastName, Email, Phone, Address, CountryID);
         }
 
+        public static bool delete(int id)
+        {
+            return clsData.delete(id);
+        }
+
         public bool Save()
         {
             switch (mode)
@@ -86,6 +91,8 @@ namespace Business
             }
             return false;
         }
+
+
     };
 
     public class Class1
