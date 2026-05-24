@@ -160,6 +160,31 @@ namespace clsData1
             return false;
 
         }
+        public static DataTable list_all()
+        {
+            DataTable dt = new DataTable();
+            SqlConnection connection = new SqlConnection(connection_string);
+            string query = "select *from Contacts";
+            SqlCommand command = new SqlCommand(query, connection);
+            try
+            {
+                connection.Open();
+                SqlDataReader reader = command.ExecuteReader();
+                if (reader.HasRows)
+                    dt.Load(reader);
+                else
+                    reader.Close();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("error " + ex);
+            }
+            finally
+            {
+                connection.Close();
+            }
+            return dt;
+        }
 
     }
 
