@@ -1,6 +1,7 @@
 ﻿using clsData1;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -70,6 +71,11 @@ namespace Business
         public static bool delete(int id)
         {
             return clsData.delete(id);
+        }
+
+        public static DataTable list_all()
+        {
+            return clsData.list_all();
         }
 
         public bool Save()
