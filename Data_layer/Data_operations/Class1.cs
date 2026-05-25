@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Data;
-using System.Data.SqlClient;
+using System.Xml.Linq;
 
 namespace clsData1
 {
@@ -184,6 +185,36 @@ namespace clsData1
                 connection.Close();
             }
             return dt;
+        }
+
+        public static bool is_exist(int id)
+        {
+            bool exist = false;
+            SqlConnection connection = new SqlConnection(connection_string);
+            string query = @"select FirstName from Contacts where ContactID=@id";
+            SqlCommand command = new SqlCommand(query, connection);
+            command.Parameters.AddWithValue("id", id);
+            try
+            {
+                connection.Open();
+                SqlDataReader reader = command.ExecuteReader();
+                if (reader.HasRows)
+                    exist = true;
+                else
+                {
+                    reader.Close();
+                    exist = false;
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("error " + ex);
+            }
+            finally
+            {
+                connection.Close();
+            }
+            return exist;
         }
 
     }
