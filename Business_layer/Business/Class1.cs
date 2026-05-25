@@ -78,6 +78,11 @@ namespace Business
             return clsData.list_all();
         }
 
+        public static bool is_exist(int id)
+        {
+            return clsData.is_exist(id);
+        }
+
         public bool Save()
         {
             switch (mode)
