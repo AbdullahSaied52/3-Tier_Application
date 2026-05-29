@@ -1,0 +1,17 @@
+D:\Back_end_1\Course_18\3_tier_architecture_project\Contacts_winForm\bin\Debug\Contacts_winForm.exe.config
+D:\Back_end_1\Course_18\3_tier_architecture_project\Contacts_winForm\bin\Debug\Contacts_winForm.exe
+D:\Back_end_1\Course_18\3_tier_architecture_project\Contacts_winForm\bin\Debug\Contacts_winForm.pdb
+D:\Back_end_1\Course_18\3_tier_architecture_project\Contacts_winForm\bin\Debug\Business.dll
+D:\Back_end_1\Course_18\3_tier_architecture_project\Contacts_winForm\bin\Debug\Data_operations.dll
+D:\Back_end_1\Course_18\3_tier_architecture_project\Contacts_winForm\bin\Debug\Business.pdb
+D:\Back_end_1\Course_18\3_tier_architecture_project\Contacts_winForm\bin\Debug\Data_operations.pdb
+D:\Back_end_1\Course_18\3_tier_architecture_project\Contacts_winForm\obj\Debug\Contacts_winForm.csproj.AssemblyReference.cache
+D:\Back_end_1\Course_18\3_tier_architecture_project\Contacts_winForm\obj\Debug\Contacts_winForm.Properties.Resources.resources
+D:\Back_end_1\Course_18\3_tier_architecture_project\Contacts_winForm\obj\Debug\Contacts_winForm.csproj.GenerateResource.cache
+D:\Back_end_1\Course_18\3_tier_architecture_project\Contacts_winForm\obj\Debug\Contacts_winForm.csproj.CoreCompileInputs.cache
+D:\Back_end_1\Course_18\3_tier_architecture_project\Contacts_winForm\obj\Debug\Contacts.09EA76C0.Up2Date
+D:\Back_end_1\Course_18\3_tier_architecture_project\Contacts_winForm\obj\Debug\Contacts_winForm.exe
+D:\Back_end_1\Course_18\3_tier_architecture_project\Contacts_winForm\obj\Debug\Contacts_winForm.pdb
+D:\Back_end_1\Course_18\3_tier_architecture_project\Contacts_winForm\obj\Debug\Contacts_winForm.exe.config
+D:\Back_end_1\Course_18\3_tier_architecture_project\Contacts_winForm\obj\Debug\Contacts_winForm.Form_list_contact.resources
+D:\Back_end_1\Course_18\3_tier_architecture_project\Contacts_winForm\obj\Debug\Contacts_winForm.Form_addedit.resources

@@ -1,0 +1,90 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Back_end_1\\Course_18\\3_tier_architecture_project\\Contacts_winForm\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{756E055B-0A6A-4251-9684-96623FA7469F}|Contacts_winForm.csproj|d:\\back_end_1\\course_18\\3_tier_architecture_project\\contacts_winform\\form_list_contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{756E055B-0A6A-4251-9684-96623FA7469F}|Contacts_winForm.csproj|solutionrelative:form_list_contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{756E055B-0A6A-4251-9684-96623FA7469F}|Contacts_winForm.csproj|d:\\back_end_1\\course_18\\3_tier_architecture_project\\contacts_winform\\form_list_contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{756E055B-0A6A-4251-9684-96623FA7469F}|Contacts_winForm.csproj|solutionrelative:form_list_contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{756E055B-0A6A-4251-9684-96623FA7469F}|Contacts_winForm.csproj|d:\\back_end_1\\course_18\\3_tier_architecture_project\\contacts_winform\\form_addedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{756E055B-0A6A-4251-9684-96623FA7469F}|Contacts_winForm.csproj|solutionrelative:form_addedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{756E055B-0A6A-4251-9684-96623FA7469F}|Contacts_winForm.csproj|d:\\back_end_1\\course_18\\3_tier_architecture_project\\contacts_winform\\form_addedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{756E055B-0A6A-4251-9684-96623FA7469F}|Contacts_winForm.csproj|solutionrelative:form_addedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 169,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form_list_contact.cs",
+              "DocumentMoniker": "D:\\Back_end_1\\Course_18\\3_tier_architecture_project\\Contacts_winForm\\Form_list_contact.cs",
+              "RelativeDocumentMoniker": "Form_list_contact.cs",
+              "ToolTip": "D:\\Back_end_1\\Course_18\\3_tier_architecture_project\\Contacts_winForm\\Form_list_contact.cs",
+              "RelativeToolTip": "Form_list_contact.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAADgv0EAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T07:52:36.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form_list_contact.cs [Design]",
+              "DocumentMoniker": "D:\\Back_end_1\\Course_18\\3_tier_architecture_project\\Contacts_winForm\\Form_list_contact.cs",
+              "RelativeDocumentMoniker": "Form_list_contact.cs",
+              "ToolTip": "D:\\Back_end_1\\Course_18\\3_tier_architecture_project\\Contacts_winForm\\Form_list_contact.cs [Design]",
+              "RelativeToolTip": "Form_list_contact.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T06:56:05.122Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form_addedit.cs",
+              "DocumentMoniker": "D:\\Back_end_1\\Course_18\\3_tier_architecture_project\\Contacts_winForm\\Form_addedit.cs",
+              "RelativeDocumentMoniker": "Form_addedit.cs",
+              "ToolTip": "D:\\Back_end_1\\Course_18\\3_tier_architecture_project\\Contacts_winForm\\Form_addedit.cs",
+              "RelativeToolTip": "Form_addedit.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAArwEsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T07:57:01.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form_addedit.cs [Design]",
+              "DocumentMoniker": "D:\\Back_end_1\\Course_18\\3_tier_architecture_project\\Contacts_winForm\\Form_addedit.cs",
+              "RelativeDocumentMoniker": "Form_addedit.cs",
+              "ToolTip": "D:\\Back_end_1\\Course_18\\3_tier_architecture_project\\Contacts_winForm\\Form_addedit.cs [Design]",
+              "RelativeToolTip": "Form_addedit.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T07:49:48.94Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
